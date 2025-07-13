@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A video downloader with blur effect for Facebook and YouTube",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/input.css -o ./styles.css",
-    "start:server": "node server.js"
+    "start": "node server.js",
+    "build:css": "npx tailwindcss -i ./input.css -o ./styles.css"
   },
   "dependencies": {
     "express": "^4.18.2",
